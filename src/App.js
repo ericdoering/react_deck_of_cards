@@ -1,12 +1,10 @@
 import React from "react";
-import BoxList from "./BoxList";
-
-/** Simple app that just shows the LightsOut game. */
+import DrawCard from "./DrawCard";
 
 function App() {
   return (
     <div>
-      <BoxList />
+      <DrawCard />
     </div>
   );
 }
