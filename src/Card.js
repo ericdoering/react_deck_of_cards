@@ -1,4 +1,5 @@
 import React, {useState} from "react";
+import "./Card.css"
 
 function Card({name, image}){
 
@@ -8,12 +9,12 @@ function Card({name, image}){
         yPosition: Math.random() * 50 - 20
     });
 
-    const randomlyPlaceCard = `translate(${xPosition}px, ${yPosition}px) rotate(${angle}deg)`;
+    const transform = `translate(${xPosition}px, ${yPosition}px) rotate(${angle}deg)`;
 
     return <img className="Card"
                 alt={name}
                 src={image}
-                style={{randomlyPlaceCard}} />;
+                style={{transform}} />;
 }
 
 export default Card;

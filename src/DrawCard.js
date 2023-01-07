@@ -46,7 +46,7 @@ function DrawCard() {
         if(autoDraw && !timerRef.current){
             timerRef.current = setInterval(async () => {
                 await getCard();
-            }, 2000);
+            }, 500);
         }
         return () => {
             clearInterval(timerRef.current);

@@ -1,0 +1,26 @@
+.Deck {
+    text-align: center;
+}
+
+.deck-draw {
+    padding: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    margin: 100 10px;
+    margin-top: 50px;
+}
+
+.deck-draw:hover {
+    cursor: hand;
+    background-color: rgb(170, 170, 170);
+}
+
+.deck-draw:active, .deck-draw:focus {
+    outline: none;
+}
+
+.deck-area {
+    margin-top: 200px;
+}
